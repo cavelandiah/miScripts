@@ -1,6 +1,6 @@
-#Fri May 11 12:04:31 CEST 2018 ##cristian ##localhost.localdomain
+# Fri May 11 12:04:31 CEST 2018 ##cristian ##localhost.localdomain
 
-#Get specie - specific covariance models:Thu May 10 12:32:55 CEST 2018 ##
+# Get specie - specific covariance models:Thu May 10 12:32:55 CEST 2018 ##
 
 In order to retrieve the covariance models according to any specific 
 
@@ -29,7 +29,10 @@ some specie name or clade
 
 based on the key word. The result is the file 
 
-O: query.list
+```
+query.list
+
+```
 
 With this output file the next step is get the accession number
 
@@ -48,4 +51,7 @@ contain at least one specie that are classified by NCBI taxonomy
 
 by your <key word>.  
 
-O cm_to_clean.list
+```
+cm_to_clean.list
+
+```
